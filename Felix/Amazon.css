@@ -7,6 +7,10 @@ nav {
     background-color: #000000;
     height: 10vh;
     display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 #Logo {
@@ -30,15 +34,15 @@ nav {
 
 #text1-2 {
     font-weight: bold;
-    font-size: 19px;
+    font-size: 2.5vh;
     position: relative;
-    left: 55px;
-    bottom: 11px;
+    left: 7.2vh;
+    bottom: 2.5vh;
 }
 
 #text1-1 {
     position: relative;
-    font-size: 19px;
-    left: 52px;
-    top: 4px;
+    font-size: 2.1vh;
+    left: 7.5vh;
+    top: 0vh;
 }
