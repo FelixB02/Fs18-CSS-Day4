@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #000000;
+    height: 10vh;
+    display: flex;
+}
+
+#Logo {
+    height: 60%;
+    width: 100%;
+}
+
+#image1 {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 2vh;
+    padding-right: 0;
+}
+
+#text1 {
+    color: white;
+    width: 10%;
+}
+
+#text1-2 {
+    font-weight: bold;
+    font-size: 19px;
+    position: relative;
+    left: 55px;
+    bottom: 11px;
+}
+
+#text1-1 {
+    position: relative;
+    font-size: 19px;
+    left: 52px;
+    top: 4px;
+}
