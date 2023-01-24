@@ -1,0 +1,31 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    background-image: url(/Felix/Bilder/milky-way-2695569_1280.jpg);
+    background-repeat: repeat x;
+    border-bottom: 2px solid black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+nav a {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20vh 0;
+    display: inline-block;
+}
+
+nav a:hover {
+    font-size: 30px;
+    color: darkslateblue;
+    transition: font-size 2s, color 2s;
+}
